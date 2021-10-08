@@ -6,7 +6,18 @@ START MENU:
 - OPTION, volume, text speed and resolution, language is missing; there are some indication on how it work or how to finalize this menu?
 - INFO, can you sent me the info I had to add into the game?
 
-AUDIO: fmod give me always an error
+AUDIO: fmod give me always an error "DllNotFoundException: fmodstudioL
+FMOD.Memory.GetStats (System.Int32& currentalloced, System.Int32& maxalloced, System.Boolean blocking) (at Assets/Plugins/FMOD/src/Runtime/wrapper/fmod.cs:890)
+FMODUnity.RuntimeUtils.EnforceLibraryOrder () (at Assets/Plugins/FMOD/src/Runtime/RuntimeUtils.cs:365)
+FMODUnity.EditorUtils.CreateSystem () (at Assets/Plugins/FMOD/src/Editor/EditorUtils.cs:235)
+FMODUnity.EditorUtils.get_System () (at Assets/Plugins/FMOD/src/Editor/EditorUtils.cs:311)
+FMODUnity.EventManager.UpdateCache () (at Assets/Plugins/FMOD/src/Editor/EventManager.cs:144)
+FMODUnity.EventManager.RefreshBanks () (at Assets/Plugins/FMOD/src/Editor/EventManager.cs:30)
+FMODUnity.EventManager.Startup () (at Assets/Plugins/FMOD/src/Editor/EventManager.cs:458)
+UnityEngine.Debug:LogException(Exception)
+FMODUnity.EventManager:Startup() (at Assets/Plugins/FMOD/src/Editor/EventManager.cs:462)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorApplication.cs:341)"
+there is some specific configuration?
 
 MOBILE: how it works? 
 - which are the function and variable it manage?
