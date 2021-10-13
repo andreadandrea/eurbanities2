@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{d60b2fa7-f845-48eb-9cfd-f352bdff33e6}">
+		<property name="name">
+			<value>PhoneNotification</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{d93a1b07-cd54-4422-92ca-93108f9624c2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e8f9cfd5-9d2f-4fae-bf69-88d7660cf69c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{d5a837cc-e16f-4645-8ecc-2245ea40fccb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{d93a1b07-cd54-4422-92ca-93108f9624c2}">
+		<relationship name="effects">
+			<destination>{3177f5d4-6d3f-4b5c-a8d6-5ba813aab5bc}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e8f9cfd5-9d2f-4fae-bf69-88d7660cf69c}" />
+	<object class="MixerBusFader" id="{3177f5d4-6d3f-4b5c-a8d6-5ba813aab5bc}" />
+</objects>

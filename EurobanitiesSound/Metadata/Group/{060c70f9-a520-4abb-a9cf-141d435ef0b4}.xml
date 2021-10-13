@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{060c70f9-a520-4abb-a9cf-141d435ef0b4}">
+		<property name="name">
+			<value>Paintbrush</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{72a1d867-c967-48d9-8ba6-b6ba6a35334e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{00802362-3183-491a-8f26-30397ea640ce}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85c18f8e-952f-4763-ab16-ced92e433b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{72a1d867-c967-48d9-8ba6-b6ba6a35334e}">
+		<relationship name="effects">
+			<destination>{86484d3e-8060-4e89-9118-79b2eb1c3ccd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{00802362-3183-491a-8f26-30397ea640ce}" />
+	<object class="MixerBusFader" id="{86484d3e-8060-4e89-9118-79b2eb1c3ccd}" />
+</objects>

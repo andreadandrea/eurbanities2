@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{c544f099-8aad-4a8e-8763-8140337fe5ce}">
+		<property name="assetPath">
+			<value>sadcrowd.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.8755208333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7742883b-1a39-4fce-9ae8-ce25e8feef98}</destination>
+		</relationship>
+	</object>
+</objects>

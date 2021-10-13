@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{5e76afec-93a9-4460-9e5e-d8394b26be12}">
+		<property name="name">
+			<value>PeopleJoined</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0bae7bf2-f728-4304-8f02-0d54393c864c}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5c9eff50-0ad9-4c68-bfc1-5946552754fd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5c9eff50-0ad9-4c68-bfc1-5946552754fd}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

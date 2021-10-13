@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{02bf5bec-74ab-4a51-bfd7-8577b746c5dc}">
+		<property name="assetPath">
+			<value>SFX/asphaltfootstep1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.57469387755102042</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7742883b-1a39-4fce-9ae8-ce25e8feef98}</destination>
+		</relationship>
+	</object>
+</objects>

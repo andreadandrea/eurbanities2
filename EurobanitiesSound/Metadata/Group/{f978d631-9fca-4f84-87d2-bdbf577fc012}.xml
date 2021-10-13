@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{f978d631-9fca-4f84-87d2-bdbf577fc012}">
+		<property name="name">
+			<value>PhoneOpenClose</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{64f1fdb8-14a1-492f-93b9-8da09a301625}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{48b97e17-c6a6-4275-95b5-6841336f41e7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85c18f8e-952f-4763-ab16-ced92e433b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{64f1fdb8-14a1-492f-93b9-8da09a301625}">
+		<relationship name="effects">
+			<destination>{1a12db9b-1bbf-4576-9919-c4d9ef8fea40}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{48b97e17-c6a6-4275-95b5-6841336f41e7}" />
+	<object class="MixerBusFader" id="{1a12db9b-1bbf-4576-9919-c4d9ef8fea40}" />
+</objects>

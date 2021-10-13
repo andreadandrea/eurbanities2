@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{9ab69fa5-8790-41d0-bd29-fa5e918bce1d}">
+		<property name="name">
+			<value>Camera</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{dd942e90-e494-489d-9fcc-038aac7aaf71}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{dda48041-ac76-485c-a2f0-6eb0baa5b94e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85c18f8e-952f-4763-ab16-ced92e433b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{dd942e90-e494-489d-9fcc-038aac7aaf71}">
+		<relationship name="effects">
+			<destination>{3ac3b4cc-5866-444b-b54c-667a5c0d1679}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{dda48041-ac76-485c-a2f0-6eb0baa5b94e}" />
+	<object class="MixerBusFader" id="{3ac3b4cc-5866-444b-b54c-667a5c0d1679}" />
+</objects>
