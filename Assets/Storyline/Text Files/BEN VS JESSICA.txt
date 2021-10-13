@@ -1,0 +1,20 @@
+#000	NAME|Ben| 		EMOJI|Face_Happy| TEXT|You see Jessica, <wsobbing> on a {#FFFFFF park} bench, what do you do?| OPTION|#001| 	OPTION_TEXT|You go up to her and ask how she is doing| 		OPTION_EXPLANATION|aa|	OPTION|#002| OPTION_TEXT|You tell her that there is nothing to be worried about, and give her a hug|		OPTION|#003| OPTION_TEXT|Comfort her|		OPTION|#004| OPTION_TEXT|Throw a stone in her face and wander off, being happy with what you have done|		OPTION|#005| OPTION_TEXT|Yog-hurt|
+#001	NAME|Jessica| 		EMOJI|Face_Sad| 		TEXT|Im doing fine, just a little worried|			OPTION|#006| 	OPTION_TEXT|Ask her why| 	OPTION_EXPLANATION||	 OPTION|#004| OPTION_TEXT|Comfort her|		OPTION_EXPLANATION|You tell her that there is nothing to be worried about, and give her a hug|			BOOLCHECK|comfort| 				FAIL_MESSAGE|>have 30/32 speech<|
+#002	NAME|Ben| 		EMOJI|Face_Happy| 		TEXT|hehe, +0<wYEET>!|
+#003	NAME|Jessica| 		EMOJI|Face_HAPPY|		TEXT|thanks, that helps alot!|
+#004	NAME|Ben| 		EMOJI|Face_Happy| 		TEXT|And [I hope that i can make this function properly work, it would be nice!"that] is it for me!|	OPTION|#End|
+
+#005	
+#006	NAME|Jessica| 		EMOJI|Face_Sad|			TEXT|The <sgovernment> is destroyng the park, and it seems that there is nothing we can do!|
+#007	NAME|Ben| 		EMOJI|Face_Happy| 		TEXT|haha, bullying goes <sbrrrrrr|
+#008
+#009	NAME|FlowerGirl|	EMOJI|Face_HAPPY|		TEXT|Welcome to my flowershop! are you looking for something in peticular?|	OPTION|#end| OPTION_TEXT|Just browsing thanks!| 	OPTION|#010|	OPTION_TEXT|Yes, i need some roses|
+#010	NAME|FlowerGirl|	EMOJI|Face_HAPPY|		TEXT|Yes, over here!|
+#011	NAME|Ben| 		EMOJI|Face_sad| 		TEXT|I can't walk...|
+#012	
+#013
+#014
+#015	NAME|Pablo|		EMOJI|Face_meh|			TEXT|I have mail, but none to you, so/2./2./2. +5/4#LEAVE /4#MY /4#<sPRESENCE>! /5/5 -5Five <sdollars> for me!|	OPTION|#end|	OPTION_TEXT|ok...|
+#016
+#017
+#018	NAME||			EMOJI||				TEXT||			OPTION|| 		OPTION_TEXT||	OPTION_EXPLANATION|| BOOL_OPERATOR||

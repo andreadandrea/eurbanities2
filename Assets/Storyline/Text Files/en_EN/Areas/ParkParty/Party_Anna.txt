@@ -1,0 +1,5 @@
+#000	NAME|Anna|	EMOJI|face_happy|	TEXT|+2<sNo way!> -2It's really you! It's been so long!|	OPTION|#001|	OPTION_TEXT|Anna! You're looking great! So long indeed. So many things happened.|
+
+#001	NAME|Anna|	EMOJI|face_sad| 	TEXT|I'm so sorry about your grandparents, they were such amazing people.|	OPTION|#002|	OPTION_TEXT|They loved you like a daughter. We need to catch up soon.|
+
+#002	NAME|Anna|	TEXT|We +1really -1need to reconnect, here is my contact, and my workplace too, I work at the Town Hall now! Let me show you how to do it.|	OPTION|#end|	SWITCH||	FLAG_SET|annaSC|

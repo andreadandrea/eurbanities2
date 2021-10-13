@@ -1,0 +1,5 @@
+#000 NAME|Tom|	EMOJI|Face_Surprised|	TEXT|{#B715E7 +1Wow -1}, I didn't recognize you! Last time I saw you, you were t\-this tall!|	OPTION|#001|	OPTION_TEXT|Tom! Things have really changed! Where did your long hair go?|
+
+#001 NAME|Tom|	EMOJI||	TEXT|Ahem, T\-this is Amin, my husband!|	OPTION|#002|	OPTION_TEXT|Hi Amin, I'm $$.|
+
+#002 NAME|Amin|	EMOJI||	TEXT|Delighted to meet you, I run the bar in Copper street, please come and visit so we can get to know each other! Drinks on the house!|	OPTION|#end|	OPTION_TEXT|See you soon.| SWITCH||	FLAG_SET|tomSC|

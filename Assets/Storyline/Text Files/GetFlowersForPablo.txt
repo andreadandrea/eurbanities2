@@ -1,0 +1,16 @@
+#000	NAME|Pablo|			EMOJI|Face_sad|		TEXT|Hi there, im having a pretty shit day today, my work load is getting worse every day, but they wont hire anyone else to help me|	OPTION|#001|	OPTION_TEXT|Unfortunatly i have my own problems, so i can't realy help| 	OPTION|#002|	OPTION_TEXT|Here, i got some flowers earlier today, you can have them!|	BOOLCHECK|FlowersForPablo| FAIL_MESSAGE|You are missing something, come back later|	FLAG_SET|hapyPablo|
+#001	NAME|Pablo|			EMOJI|Face_Sad|		TEXT|Yeah,/9 i understand/7./7./7.|
+#002	NAME|Pablo|			EMOJI|Face_Happy|	TEXT|That is so nice! Thank you!|
+#003	NAME|Pablo|			EMOJI|FACE_HAPPY|	TEXT|\*<wsmelling flowers>\*| OPTION|#End| OPTION_TEXT|YOLO|	SWITCH||
+
+
+
+#010	NAME|PartyGoer|		EMOJI|Face_Happy|	TEXT|Hello and welcome to the party!|	OPTION|#end|	OPTION_TEXT|Thanks!|	FLAG_SET|PartyInvite|
+#011	NAME|PartyGoer|		EMOJI|Face_Happy| 	TEXT|Well don't stand here, go and mingle!|
+
+
+
+#020	NAME|FlowerGirl|	EMOJI|Face_Happy|	TEXT|Hello there, looking for somehing special?|	OPTION|#021|	OPTION_TEXT|No, just windowShopping|		OPTION|#025|	OPTION_TEXT|I would like some flowers|	FLAG_SET|FlowersForPablo|
+#021	NAME|FlowerGirl|	EMOJI|Face_Happy|	TEXT|OK, just holler if you need somehing!|
+
+#025	NAME|FlowerGirl|	EMOJI|Face_Happy|	TEXT|Here you go!|

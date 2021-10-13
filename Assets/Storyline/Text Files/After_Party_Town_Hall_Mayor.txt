@@ -1,0 +1,14 @@
+
+#000	NAME|Mayor Alexandria Shrinehill|		TEXT|Greetings, I'm Alexandria Shrinehill, how can I help you? OPTION|#001|	OPTION_TEXT|My name is $$, I just came back to town after many years.My grandparents used to run the Community Center.|
+
+#001 NAME|Mayor Alexandria Shrinehill|   TEXT| First of all, let me express my condolences for the loss of your grandparents. The community loved Sven and Tilda, and they spoke often of you.|	OPTION|#002|	OPTION_TEXT|Thank you, that's so heartwarming to hear.|				
+
+#002	NAME|Mayor Alexandria Shrinehill|		TEXT|Unfortunately nobody has been taking care of the Community Center after they fell sick. It's in a bad state.|	OPTION|#003|	OPTION_TEXT|That makes me sad.|		OPTION|#005|	OPTION_TEXT|That makes me angry.|	
+			
+#003	NAME|Mayor Alexandria Shrinehill|		TEXT|Yes, it's a pity indeed. Unfortunately nobody showed enough interest and we started considering taking the building down or repurposing it.|	OPTION|#004|	OPTION_TEXT|If I take care of it, could you consider to keep supporting it?  So many people really seem to need this.|	OPTION|#005|	OPTION_TEXT|You can't do that! My grandparents put their whole lives into this Center!|	
+			
+#004	NAME|Mayor Alexandria Shrinehill|		TEXT|I can definitely consider that, but you must understand it's not a small cost for the town. You'll need to show me that the people really need it.|	OPTION|#006|	OPTION_TEXT|I can do that.|	
+			
+#005	NAME|Mayor Alexandria Shrinehill|		TEXT|Please, it's not personal, I understand your feelings about that place, but we can't keep supporting it if nobody else has a use for it. You'll have to take care of it on your own and show me why it's important.|	OPTION|#006|	OPTION_TEXT|I can do that.|
+
+#006	NAME|Mayor Alexandria Shrinehill|		TEXT|Agreed. Here are the keys to the building. I'm doing this out of respect for your grandparents, and hoping that the town will benefit from it.|	OPTION|#End|	OPTION_TEXT|You won't regret this.|		

@@ -1,0 +1,5 @@
+#000	NAME|RandomTrivia|	EMOJI|Face_meh|		TEXT|I work to much|
+#001	NAME|RandomTrivia|	EMOJI|Face_meh|		TEXT|I hate Mondays|
+#002	NAME|RandomTrivia|	EMOJI|Face_meh|		TEXT|Most of this is just random junk text|
+#003	NAME|RandomTrivia|	EMOJI|Face_meh|		TEXT|you have a max lenght of your hair, since you loose some all the time|
+#004	NAME|RandomTrivia|	EMOJI|Face_meh|		TEXT|you have more holes then a polo shirt|

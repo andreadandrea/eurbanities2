@@ -1,0 +1,5 @@
+#000 NAME|Pablo|	EMOJI|cry_happy|	TEXT|{#04c79d +2It's really you!-2} You have your grandfather's eyes!  {#E76515 +2Incredible!}|	OPTION|#001|	OPTION_TEXT|It's so sweet of you to say that, Pablo. I'm so glad to see you. You haven't changed at all.|
+
+#001 NAME|Pablo|	EMOJI||	TEXT|Are you going to stay at your grandparents house? I wish someone took care of that road, it's hard to ride my bike with all those bumps. {#E76515 +2Bummer!}.|	OPTION|#002|	OPTION_TEXT|Yes, I noticed the road is in really bad shape. I wish someone could do something about that.|
+
+#002 NAME|Pablo|	EMOJI||	TEXT|I will deliver your mail there! Oh that little racer is my daughter, Lia. Say hi, Lia!|	OPTION|#end|	OPTION_TEXT|Hi Lia!| SWITCH||	FLAG_SET|pabSC|

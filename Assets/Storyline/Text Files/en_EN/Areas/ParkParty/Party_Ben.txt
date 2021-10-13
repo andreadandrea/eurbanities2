@@ -1,0 +1,7 @@
+#000	NAME|Ben|	EMOJI|face_happy| 	TEXT|+2<sOh my word!> $$! -2Welcome back! I heard you had moved back in, it is great to have you here again!|	OPTION|#001|	OPTION_TEXT|Hello Ben!|
+
+#001	NAME|Ben|	EMOJI|face_sad| 	TEXT|Dear one, I am so sorry about your grandparents. You must miss them so much, I know I do.|	OPTION|#002|	OPTION_TEXT|Thank you. It's been hard. But I am here now!|		
+
+#002	NAME|Ben|	TEXT|Things around here have changed since you lived here. As you will see. +1I can not even visit all the buildings!|	OPTION|#003|	OPTION_TEXT|Why not?|
+
+#003	NAME|Ben|	TEXT|Oh, you see not all places are built with the disabled in mind. I can not roll this wheelchair up the stairs! But do not let me hold you up with my babbling. Go enjoy the party!|	OPTION|#end|	SWITCH|| FLAG_SET|benSC|

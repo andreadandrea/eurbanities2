@@ -1,0 +1,7 @@
+#000 NAME|Giorgia|	EMOJI|face_happy|	TEXT|{#9A2265 <wNamaste>!} You have a beautiful aura! We need to be friends!|	OPTION|#001|	OPTION_TEXT|Hi, I used to live here as a child, but i moved back today.|
+
+#001 NAME|Giorgia|	EMOJI||	TEXT|I recently moved in. My name is Giorgia and I am a yoga instructor.|	OPTION|#002|	OPTION_TEXT|My name is $$, nice to meet you. Do you like it here so far?|
+
+#002 NAME|Giorgia|	EMOJI||	TEXT|Most people seem to be {#22549A <sstressed>} here, I wish I could help them.They could really benefit from yoga.If only we could have a quiet space for that.|	OPTION|#003|	OPTION_TEXT|That would surely help a lot of people.|
+
+#003 NAME|Giorgia| EMOJI||	TEXT|It was wonderful talking to you! Take my contact, Namaste!|	OPTION|#end| SWITCH||	OPTION_TEXT|Bye| FLAG_SET|gioSC|
