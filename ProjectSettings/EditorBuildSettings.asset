@@ -6,6 +6,63 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Core Scenes/MasterScene.unity
+    guid: 50d7929d74e3c2045a410df4d19c94de
+  - enabled: 1
+    path: Assets/Scenes/Core Scenes/MobileScene.unity
+    guid: f315b6caebc134b4ea200ae8d98e1c4a
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Main_Street.unity
+    guid: b2d9f77162b4d6843ba00b1c86ab5ae6
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/FlowerShop.unity
+    guid: 3dd162c1f4781104e99436df48cd8bd1
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Park_Party.unity
+    guid: 31883621162ab1841aeed6433779d017
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Park_AfterParty.unity
+    guid: cf0b0b444932b4d468335d02ff1691f3
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Town_Hall.unity
+    guid: f1067d95023dd6245b8f47c5eaf7a6ee
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/TownHallInside.unity
+    guid: 7b1130cdcca9fff43a3defd005ef1065
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Minigames/Gardening.unity
+    guid: 873ed5d5e2154634dbd1ae331de554f4
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Community_Center.unity
+    guid: 8b87ba7a3f8455e4ebb8a64e3ab47805
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/CommunityCenterInside.unity
+    guid: a75c2dfaa00f06e428f2680a52ec1b96
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/Amin'sBarOutside.unity
+    guid: 059e9c8fc4e615e45aab86526f02a715
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Streets/FlowerShopStreet.unity
+    guid: 71580dd0dfbaaf149aa77f21c3ddefe8
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/Amin'sBarInside.unity
+    guid: 6996924a12a78244fb14c79040bfc4db
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/BasementGym.unity
+    guid: b3e42550e16e29e4d82f742492e7cbe8
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Interior/BensBikesInside.unity
+    guid: b4c67c216b9321a4a9670bbfe918ac92
+  - enabled: 1
+    path: Assets/Scenes/StartMenu - Scenes/StartMenu.unity
+    guid: 6e24fccdf6756994c943e05c8567f3a3
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Minigames/RecyclingMiniGame.unity
+    guid: 68883fe655d1cf542a21989c8ae13bcd
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Minigames/YogaMiniGame.unity
+    guid: be3182b853e8b454db8a37b08067db0f
+  - enabled: 1
+    path: Assets/Scenes/MapLocations/Minigames/Gathering.unity
+    guid: c86a118e9187e2f4692e0ceb6733a1c6
   m_configObjects: {}

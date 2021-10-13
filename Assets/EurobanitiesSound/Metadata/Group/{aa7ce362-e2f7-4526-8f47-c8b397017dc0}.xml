@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{aa7ce362-e2f7-4526-8f47-c8b397017dc0}">
+		<property name="name">
+			<value>Shovel</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{5e7fa766-3128-41f6-8fd1-51ab3ab090ff}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7e34d0a8-637c-4da1-98b4-86a3fd74c9ab}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85c18f8e-952f-4763-ab16-ced92e433b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5e7fa766-3128-41f6-8fd1-51ab3ab090ff}">
+		<relationship name="effects">
+			<destination>{3a31063d-37fc-4822-9427-0180e93ccaa1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7e34d0a8-637c-4da1-98b4-86a3fd74c9ab}" />
+	<object class="MixerBusFader" id="{3a31063d-37fc-4822-9427-0180e93ccaa1}" />
+</objects>

@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PhotoTarget
+  - CameraButton
+  - Door
+  - GlassTrashcan
+  - MetalTrashcan
+  - PlasticTrashcan
+  - Glass
+  - Metal
+  - Plastic
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -11,14 +21,14 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - CameraButton
+  - Phone
+  - PhotoTarget
+  - Pins
+  - NoCollission
+  - Door
+  - TrashNotCollide
+  - Trash
   - 
   - 
   - 
@@ -38,6 +48,33 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Skybox
+    uniqueID: 59079907
+    locked: 0
+  - name: Background
+    uniqueID: 2039046917
+    locked: 0
+  - name: Midground
+    uniqueID: 1962729815
+    locked: 0
+  - name: Behind Player
+    uniqueID: 1809524455
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Infront Of Player
+    uniqueID: 3796023813
+    locked: 0
+  - name: Door
+    uniqueID: 2351610933
+    locked: 0
+  - name: Foreground
+    uniqueID: 2597095999
+    locked: 0
+  - name: Button
+    uniqueID: 1962598409
+    locked: 0
+  - name: Overlay
+    uniqueID: 3777682275
     locked: 0

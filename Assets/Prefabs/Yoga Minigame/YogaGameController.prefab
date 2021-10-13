@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1819142030051868111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1819142030051868109}
+  - component: {fileID: 1819142030051868108}
+  m_Layer: 0
+  m_Name: YogaGameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1819142030051868109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819142030051868111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.72684145, y: 1.5501163, z: -12.106954}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1819142030051868108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819142030051868111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c6eaf9b4fb68449a581af60c7740cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stateTransitionTime: 1.5
+  value: 2
+  scaleSpeed: 0.5
+  breatheTimeSlow: 0.351
+  areaSizes:
+  - 2
+  - 1.45
+  - 0.87
+  - 0.3
+  breatheInSizes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  breatheOutSizes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  outSizeMultiplierRound2: 1.05
+  outSizeMultiplierRound3: 1.1
+  inSizeMultiplierRound2: 0.9
+  inSizeMultiplierRound3: 0.8
+  state: 0
+  breatheCircle: {fileID: 0}
+  breatheInPointBoard: {fileID: 0}
+  breatheOutPointBoard: {fileID: 0}
+  upScale: 0
+  isBreatheInMode: 1
+  isBreatheOutMode: 0
+  balanceThing: {fileID: 0}
+  balanceModeObjects: {fileID: 0}
+  balanceThingSpeedNormal: 15
+  balanceTimeSlow: 0.314
+  xOffsetBalanceThing: 19.4
+  balanceBarAreas:
+  - 1.8
+  - 14.42
+  - 20.11
+  round: 1
+  score: 0
+  currentScore: 0
+  maximumScore: 36
+  scoreText: {fileID: 0}
+  scoreScreen: {fileID: 0}
+  startScreen: {fileID: 0}
+  scoreTextScreen: {fileID: 0}
+  roundText: {fileID: 0}

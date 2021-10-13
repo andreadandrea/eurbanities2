@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{9db4baa1-0c69-40b8-87be-c062c164e4f9}">
+		<property name="name">
+			<value>ToiletFlush</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ab17209c-5934-4c91-a3ed-9e4112a45651}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{49845593-9840-45c6-8c4f-4fdd640ee413}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{85c18f8e-952f-4763-ab16-ced92e433b22}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ab17209c-5934-4c91-a3ed-9e4112a45651}">
+		<relationship name="effects">
+			<destination>{a63a44c9-a645-4aa4-834f-a1af75183ab0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{49845593-9840-45c6-8c4f-4fdd640ee413}" />
+	<object class="MixerBusFader" id="{a63a44c9-a645-4aa4-834f-a1af75183ab0}" />
+</objects>

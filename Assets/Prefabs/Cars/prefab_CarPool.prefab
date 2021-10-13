@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7893198035092715546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7893198035092715545}
+  - component: {fileID: 7893198035092715544}
+  m_Layer: 0
+  m_Name: prefab_CarPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7893198035092715545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893198035092715546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7893198035092715544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893198035092715546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c0ec81872ad0f4f87a5f79cb16ea68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefab:
+  - {fileID: 8955852915985319389, guid: 25516a7574065d84fab6b7680187c74d, type: 3}
+  - {fileID: 7155914438102769222, guid: 10cbf37c087489842b1f967f7e7d159e, type: 3}
+  - {fileID: 8563954282090243859, guid: 251d9e581ecdeb84c8e4dea931f90ac8, type: 3}
+  - {fileID: 1152809367471796733, guid: 72288c44376b26141a5063a2754bdbd8, type: 3}
+  yLevel: -6
+  minCarSpeed: 4
+  maxCarSpeed: 8
+  spawnMinSeconds: 12
+  spawnMaxSeconds: 25
+  displaySpawnLevel: 0
+  carColors:
+  - {r: 0.7529412, g: 0.05490196, b: 0.101960786, a: 1}
+  - {r: 0.2784314, g: 0.34117648, b: 0.56078434, a: 1}
+  - {r: 0.3882353, g: 0.4509804, b: 0.5019608, a: 1}
+  - {r: 0.6, g: 0.6156863, b: 0.627451, a: 1}
+  - {r: 0.11372549, g: 0.3529412, b: 0.24705882, a: 1}
+  - {r: 0.11764706, g: 0.14117648, b: 0.16078432, a: 1}
+  - {r: 0.6862745, g: 0.8392157, b: 0.89411765, a: 1}
+  - {r: 0.28627452, g: 0.06666667, b: 0.11372549, a: 1}
+  - {r: 0.13333334, g: 0.18039216, b: 0.27450982, a: 1}
+  - {r: 0.07058824, g: 0.21960784, b: 0.23529412, a: 1}

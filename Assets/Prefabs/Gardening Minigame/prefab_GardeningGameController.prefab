@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3114130353244143053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3114130353244143055}
+  - component: {fileID: 3114130353244143054}
+  m_Layer: 0
+  m_Name: prefab_GardeningGameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3114130353244143055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3114130353244143053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1632.3877, y: 1629.6874, z: -120.73021}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3114130353244143054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3114130353244143053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5400172d846ad0841beaf1f86bbcbc1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevelState: 0
+  allPlantObjects: []
+  allColorObjects: []
+  colorIndexArray: 
+  plantIndexArray: 
+  plantLevelGroup:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  colorLevelGroup:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  plankLevelGroup:
+  - {fileID: 0}
+  - {fileID: 0}
+  gardenStateObject:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  plankSprites:
+  - {fileID: 21300000, guid: 0d42771637495ff4e987e3a79c6d1332, type: 3}
+  - {fileID: 21300000, guid: 93233db6143622d4a9f6af5446cb8856, type: 3}
+  - {fileID: 21300000, guid: 25097f4df164cc8468291be0ab3e1bb3, type: 3}
+  - {fileID: 21300000, guid: 80e9b0fcd86e1c74abe4e203b50177b6, type: 3}
+  - {fileID: 21300000, guid: 24fe95d3f070d054587c490ed5b85314, type: 3}
+  - {fileID: 21300000, guid: ef827d4f0042034459573cacb4259aca, type: 3}
+  plankSpriteRenderer: {fileID: 0}
+  plankUIFeedBackSpriteRenderer: {fileID: 0}
+  colorsAvailable:
+  - {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 1}
+  - {r: 0.079197526, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0.3920169, b: 1, a: 1}
+  - {r: 1, g: 0.9499881, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.66623116, a: 1}
+  - {r: 0, g: 1, b: 0.7591827, a: 1}
+  - {r: 1, g: 0.41762692, b: 0, a: 1}
+  - {r: 0.622107, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0.69194543, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0.59276915, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  plantSprites:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: 758a612eced59b44c9597c74a67f1351, type: 3}
+  - {fileID: 21300000, guid: 1029adaeac7f35545bd347be07037ac1, type: 3}
+  - {fileID: 21300000, guid: 33f6bdda2ae2263479a12c7295233dc5, type: 3}
+  - {fileID: 21300000, guid: c36298e2dea0f2d4ebffd4bffd24491f, type: 3}
+  - {fileID: 21300000, guid: 3008b2606e6cc6c468e6502d5cdf3e5f, type: 3}
+  - {fileID: 21300000, guid: 4ef7f92e6ce67f24b962d0dfe7627e0b, type: 3}
+  - {fileID: 21300000, guid: abcb877449e8b4843b70792c77044dc6, type: 3}
+  - {fileID: 21300000, guid: 12655955d6b6ddd45bc99c83a8ffd981, type: 3}
+  - {fileID: 21300000, guid: 1938a438431e7da4c8c53749b2bbf0e2, type: 3}
+  - {fileID: 21300000, guid: 5297ea6729f8f16419a3ee0a1f0d96a4, type: 3}
+  playerStartPos: {x: 0, y: 0, z: 0}
+  goBackPos: {fileID: 0}
+  otherMoveSpeed: 4
